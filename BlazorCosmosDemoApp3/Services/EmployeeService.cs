@@ -33,51 +33,49 @@ namespace BlazorCosmosDemoApp3.Services
             }
         }
 
-        //To do : add a clear naming conventions
-        public async Task<List<EmployeeModel>> GetEmployeeDetails()
+        private async Task<List<EmployeeModel>> FetchEmployeeListAsync()
         {
             List<EmployeeModel> result = new List<EmployeeModel>();
 
             try
             {
-                // To do : find a optimum
-                var sqlQuery = "SELECT*FROM c";
+                var sqlQuery = "SELECT * FROM c";
                 QueryDefinition queryDefinition = new QueryDefinition(sqlQuery);
-                FeedIterator<EmployeeModel> quearyResSelector = _container.GetItemQueryIterator<EmployeeModel>
-                    (queryDefinition);
-                while (quearyResSelector.HasMoreResults)
+                FeedIterator<EmployeeModel> queryResultSetIterator = _container.GetItemQueryIterator<EmployeeModel>(queryDefinition);
+                while (queryResultSetIterator.HasMoreResults)
                 {
-                    FeedResponse<EmployeeModel> currentResSet = await quearyResSelector.ReadNextAsync();
-                    foreach (EmployeeModel employee in currentResSet)
+                    FeedResponse<EmployeeModel> currentResultSet = await queryResultSetIterator.ReadNextAsync();
+                    foreach (EmployeeModel employee in currentResultSet)
                     {
                         result.Add(employee);
                     }
-
                 }
-
             }
             catch (Exception ex)
             {
-                // to do 
                 Console.WriteLine(ex.Message);
             }
             return result;
         }
-        
+
+        public async Task<IQueryable<EmployeeModel>> GetEmployeeDetails()
+        {
+            var list = await FetchEmployeeListAsync();
+            return list.AsQueryable();
+        }
+
         public async Task<EmployeeModel> GetEmployeeDetailsById(string? id, string? partitionKey)
         {
             try
             {
                 ItemResponse<EmployeeModel> response = await _container.ReadItemAsync<EmployeeModel>(id, new PartitionKey(partitionKey));
                 return response.Resource;
-
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 throw;
             }
-
         }
 
         public async Task updateEmployeeDetails(EmployeeModel emp)
@@ -90,9 +88,8 @@ namespace BlazorCosmosDemoApp3.Services
                 existingItem.Name = emp.Name;
                 existingItem.Email = emp.Email;
                 existingItem.Salary = emp.Salary;
-                
-                var updateRes = await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
 
+                var updateRes = await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
             }
             catch (Exception ex)
             {
@@ -108,7 +105,6 @@ namespace BlazorCosmosDemoApp3.Services
             }
             catch (Exception ex)
             {
-                // find a exception handeling : throw | throw new exceptions
                 throw new Exception("Exception", ex);
             }
         }
