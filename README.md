@@ -7,7 +7,7 @@
 ## 🚀 Features
 
 - 🧑‍💼 Manage Employees (Create, View, Update, Delete)
-- ⚡ Built with Blazor WebAssembly
+- ⚡ Built with Blazor Server
 - 🎨 Uses Radzen UI components for a rich and responsive interface
 - ☁️ Data stored and retrieved from Azure Cosmos DB
 - 📦 Clean architecture with service and model separation
