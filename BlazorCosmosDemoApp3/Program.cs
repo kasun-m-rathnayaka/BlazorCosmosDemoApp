@@ -1,5 +1,6 @@
 using BlazorCosmosDemoApp3.Components;
 using BlazorCosmosDemoApp3.Services;
+using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,8 @@ builder.Services.AddScoped<EmployeeService>(sp =>
     
     return new EmployeeService(conn, key, dataBaseName, containerName);
 });
+
+builder.Services.AddRadzenComponents();
 
 var app = builder.Build();
 
