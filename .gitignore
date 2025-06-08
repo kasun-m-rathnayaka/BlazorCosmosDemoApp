@@ -400,6 +400,8 @@ FodyWeavers.xsd
 *.sln.iml
 
 BlazorCosmosDemoApp3/appsettings.json
+*/bin
+*/obj
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
