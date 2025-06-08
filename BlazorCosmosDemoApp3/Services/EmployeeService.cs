@@ -24,7 +24,6 @@ namespace BlazorCosmosDemoApp3.Services
             }
             try
             {
-                Console.WriteLine(model.Id);
                 await _container.CreateItemAsync(model, new PartitionKey(model.Department));
             }
             catch (CosmosException ex)
@@ -80,23 +79,30 @@ namespace BlazorCosmosDemoApp3.Services
             }
         }
 
-        public async Task updateEmployeeDetails(EmployeeModel emp)
+        public async Task UpdateEmployee(EmployeeModel emp)
         {
+            if (emp == null)
+            {
+                throw new ArgumentNullException(nameof(emp), "Employee model cannot be null.");
+            }
             try
             {
-                ItemResponse<EmployeeModel> res = await _container.ReadItemAsync<EmployeeModel>(Convert.ToString(emp.Id), new PartitionKey(emp.Department));
+                // Read the existing item
+                ItemResponse<EmployeeModel> res = await _container.ReadItemAsync<EmployeeModel>(emp.Id, new PartitionKey(emp.Department));
                 var existingItem = res.Resource;
 
+                // Update fields
                 existingItem.Name = emp.Name;
                 existingItem.Email = emp.Email;
                 existingItem.Salary = emp.Salary;
-                
-                var updateRes = await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
+                existingItem.Department = emp.Department;
 
+                // Replace the item in Cosmos DB
+                await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
             }
-            catch (Exception ex)
+            catch (CosmosException ex)
             {
-                Console.WriteLine(ex.Message);
+                throw new Exception($"Error updating employee: {ex.Message}", ex);
             }
         }
 

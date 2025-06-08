@@ -21,6 +21,9 @@ builder.Services.AddScoped<EmployeeService>(sp =>
 
 builder.Services.AddRadzenComponents();
 
+builder.Services.AddScoped<DialogService>();
+builder.Services.AddScoped<NotificationService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

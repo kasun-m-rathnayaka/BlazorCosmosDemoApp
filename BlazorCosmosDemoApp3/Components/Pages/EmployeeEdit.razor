@@ -70,7 +70,7 @@
         if (employee == null) return;
 
         Console.WriteLine("You have given : " + employee.Name +" " + employee.Email);
-        await employeeService.updateEmployeeDetails(employee);
+        await employeeService.UpdateEmployee(employee);
 
         NavManager.NavigateTo("/");
     }

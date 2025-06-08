@@ -1,8 +1,12 @@
 @inject EmployeeService employeeService
+@inject DialogService DialogService
 
 <h3>Employees</h3>
 
-<RadzenButton Text="Reset" Click="@Reset" Style="margin-bottom: 20px;" />
+<RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" Style="margin-bottom: 20px;">
+    <RadzenButton Text="Add New" Click="@InsertRow" ButtonStyle="ButtonStyle.Primary" />
+    <RadzenButton Text="Reset" Click="@Reset" />
+</RadzenStack>
 <RadzenDataGrid @ref="grid"
                 TItem="EmployeeModel"
                 IsLoading="@isLoading"
@@ -13,14 +17,53 @@
                 AllowFiltering="true"
                 AllowPaging="true"
                 PageSize="5"
+                EditMode="DataGridEditMode.Single"
+                RowUpdate="@OnUpdateRow"
+                RowCreate="@OnCreateRow"
                 PagerHorizontalAlign="HorizontalAlign.Center"
                 ColumnWidth="200px">
     <Columns>
-        <RadzenDataGridColumn TItem="EmployeeModel" Property="Id" Title="ID" Width="80px" TextAlign="TextAlign.Center" />
-        <RadzenDataGridColumn TItem="EmployeeModel" Property="Name" Title="Name" Width="160px" />
-        <RadzenDataGridColumn TItem="EmployeeModel" Property="Department" Title="Department" Width="160px" />
-        <RadzenDataGridColumn TItem="EmployeeModel" Property="Email" Title="Email" Width="200px" />
-        <RadzenDataGridColumn TItem="EmployeeModel" Property="Salary" Title="Salary" Width="120px" />
+        <RadzenDataGridColumn TItem="EmployeeModel" Property="Id" Title="ID" Width="80px" TextAlign="TextAlign.Center">
+            <EditTemplate Context="employee">
+                <RadzenTextBox @bind-Value="employee.Id" Name="Id" Style="width:100%" />
+                <RadzenRequiredValidator Component="Id" Text="ID is required" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EmployeeModel" Property="Name" Title="Name" Width="160px">
+            <EditTemplate Context="employee">
+                <RadzenTextBox @bind-Value="employee.Name" Name="Name" Style="width:100%" />
+                <RadzenRequiredValidator Component="Name" Text="Name is required" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EmployeeModel" Property="Department" Title="Department" Width="160px">
+            <EditTemplate Context="employee">
+                <RadzenTextBox @bind-Value="employee.Department" Name="Department" Style="width:100%" />
+                <RadzenRequiredValidator Component="Department" Text="Department is required" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EmployeeModel" Property="Email" Title="Email" Width="200px">
+            <EditTemplate Context="employee">
+                <RadzenTextBox @bind-Value="employee.Email" Name="Email" Style="width:100%" />
+                <RadzenRequiredValidator Component="Email" Text="Email is required" Popup="true" />
+                <RadzenEmailValidator Component="Email" Text="Invalid email format" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EmployeeModel" Property="Salary" Title="Salary" Width="120px">
+            <EditTemplate Context="employee">
+                <RadzenNumeric @bind-Value="employee.Salary" Name="Salary" Style="width:100%" />
+                <RadzenRequiredValidator Component="Salary" Text="Salary is required" Popup="true" />
+                <RadzenRangeValidator Component="Salary" Min="0" Text="Salary must be >= 0" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="EmployeeModel" Context="employee" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="120px">
+            <Template Context="employee">
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Medium" Click="@(() => grid.EditRow(employee))" />
+            </Template>
+            <EditTemplate Context="employee">
+                <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Size="ButtonSize.Medium" Click="@(() => grid.UpdateRow(employee))" />
+                <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Medium" Click="@(() => grid.CancelEditRow(employee))" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
     </Columns>
 </RadzenDataGrid>
 

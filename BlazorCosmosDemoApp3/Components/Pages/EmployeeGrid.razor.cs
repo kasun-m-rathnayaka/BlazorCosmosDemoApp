@@ -42,5 +42,24 @@ namespace BlazorCosmosDemoApp3.Components.Pages
             isLoading = false;
             StateHasChanged();
         }
+
+        async Task OnUpdateRow(EmployeeModel employee)
+        {
+            await employeeService.UpdateEmployee(employee);
+            await grid.Reload();
+        }
+
+        async Task OnCreateRow(EmployeeModel employee)
+        {
+            await employeeService.AddEmployee(employee);
+            await grid.Reload();
+        }
+
+        async Task InsertRow()
+        {
+            await grid.InsertRow(new EmployeeModel());
+        }
+
+
     }
 }

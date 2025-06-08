@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorCosmosDemoApp3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a0f9262b63a1be7457f2580c375c280be3d1934")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c8c7df7117838842e7d39f07d1738d042f67a62")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorCosmosDemoApp3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorCosmosDemoApp3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
