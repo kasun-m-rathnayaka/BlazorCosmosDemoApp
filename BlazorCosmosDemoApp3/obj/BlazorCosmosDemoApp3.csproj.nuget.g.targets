@@ -2,12 +2,9 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)system.text.json\6.0.10\buildTransitive\netcoreapp3.1\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\6.0.10\buildTransitive\netcoreapp3.1\System.Text.Json.targets')" />
-<<<<<<< HEAD
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.options\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Options.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\8.0.0\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\8.0.0\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.analyzers\8.0.0\buildTransitive\netstandard2.0\Microsoft.AspNetCore.Components.Analyzers.targets')" />
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     <Import Project="$(NuGetPackageRoot)microsoft.azure.cosmos\3.51.0\buildTransitive\netstandard2.0\Microsoft.Azure.Cosmos.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.azure.cosmos\3.51.0\buildTransitive\netstandard2.0\Microsoft.Azure.Cosmos.targets')" />
   </ImportGroup>
 </Project>

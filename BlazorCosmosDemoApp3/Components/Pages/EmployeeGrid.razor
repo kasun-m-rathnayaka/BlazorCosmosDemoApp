@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-﻿@inject EmployeeService employeeService  
+@inject EmployeeService employeeService
 
-<h3>Employees</h3>  
+<h3>Employees</h3>
 
 <RadzenButton Text="Reset" Click="@Reset" Style="margin-bottom: 20px;" />
 <RadzenDataGrid @ref="grid"
@@ -25,64 +24,3 @@
     </Columns>
 </RadzenDataGrid>
 
-
-=======
-﻿@using BlazorCosmosDemoApp3.Models  
-@inject EmployeeService employeeService  
-
-<h3>Employees</h3>  
-
-
-@if (isLoading)
-{
-    <div class="d-flex flex-column align-items-center justify-content-center mt-4">
-        <p>Loading Data...</p>
-        <RadzenProgressBarCircular Value="100" ShowValue="false" Mode="ProgressBarMode.Indeterminate" />
-    </div>
-    
-}
-else
-{
-    <RadzenDataGrid TItem="EmployeeModel"
-                    Data="@employees"
-                    AllowFiltering="true"
-                    AllowColumnResize="true"
-                    AllowAlternatingRows="false"
-                    FilterMode="FilterMode.Simple"
-                    AllowSorting="true"
-                    PageSize="5"
-                    AllowPaging="true"
-                    ShowPagingSummary="true">
-        <Columns>
-            <RadzenDataGridColumn TItem="EmployeeModel" Property="Id" Title="ID" />
-            <RadzenDataGridColumn TItem="EmployeeModel" Property="Name" Title="Name" />
-            <RadzenDataGridColumn TItem="EmployeeModel" Property="Department" Title="Department" />
-            <RadzenDataGridColumn TItem="EmployeeModel" Property="Email" Title="Email" />
-            <RadzenDataGridColumn TItem="EmployeeModel" Property="Salary" Title="Salary" />
-        </Columns>
-    </RadzenDataGrid>
-}
- 
-
-@code {
-    IEnumerable<EmployeeModel> employees;  
-    IList<EmployeeModel> selectedEmployees;
-    bool isLoading = true;
-
-    protected override async Task OnInitializedAsync()  
-    {
-        try
-        {
-            await base.OnInitializedAsync();
-            employees = await employeeService.GetEmployeeDetails();
-
-            selectedEmployees = new List<EmployeeModel>() { employees.FirstOrDefault() };
-        }
-        finally
-        {
-            isLoading = false;
-        }
-
-    }  
-}
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7

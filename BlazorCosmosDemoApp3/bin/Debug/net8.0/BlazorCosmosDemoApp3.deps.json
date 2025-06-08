@@ -9,13 +9,9 @@
       "BlazorCosmosDemoApp3/1.0.0": {
         "dependencies": {
           "Microsoft.Azure.Cosmos": "3.51.0",
-<<<<<<< HEAD
           "Newtonsoft.Json": "13.0.3",
           "Radzen.Blazor": "7.0.8",
           "System.Linq.Dynamic.Core": "1.6.5"
-=======
-          "Newtonsoft.Json": "13.0.3"
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         },
         "runtime": {
           "BlazorCosmosDemoApp3.dll": {}
@@ -39,7 +35,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authorization/8.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "8.0.0",
@@ -70,8 +65,6 @@
         }
       },
       "Microsoft.AspNetCore.Metadata/8.0.0": {},
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "Microsoft.Azure.Cosmos/3.51.0": {
         "dependencies": {
           "Azure.Core": "1.44.1",
@@ -151,7 +144,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
@@ -171,8 +163,6 @@
       },
       "Microsoft.Extensions.Primitives/8.0.0": {},
       "Microsoft.JSInterop/8.0.0": {},
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
       "Microsoft.Win32.SystemEvents/6.0.0": {
@@ -199,7 +189,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Radzen.Blazor/7.0.8": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "8.0.0",
@@ -212,8 +201,6 @@
           }
         }
       },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
@@ -394,10 +381,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-<<<<<<< HEAD
       "System.IO.Pipelines/8.0.0": {},
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "System.Linq/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -407,7 +391,6 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
-<<<<<<< HEAD
       "System.Linq.Dynamic.Core/1.6.5": {
         "runtime": {
           "lib/net8.0/System.Linq.Dynamic.Core.dll": {
@@ -416,8 +399,6 @@
           }
         }
       },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "System.Memory/4.5.5": {},
       "System.Memory.Data/6.0.0": {
         "dependencies": {
@@ -757,7 +738,6 @@
       "path": "azure.core/1.44.1",
       "hashPath": "azure.core.1.44.1.nupkg.sha512"
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Authorization/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -800,8 +780,6 @@
       "path": "microsoft.aspnetcore.metadata/8.0.0",
       "hashPath": "microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "Microsoft.Azure.Cosmos/3.51.0": {
       "type": "package",
       "serviceable": true,
@@ -823,7 +801,6 @@
       "path": "microsoft.bcl.hashcode/1.1.0",
       "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
     },
-<<<<<<< HEAD
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -866,8 +843,6 @@
       "path": "microsoft.jsinterop/8.0.0",
       "hashPath": "microsoft.jsinterop.8.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "Microsoft.NETCore.Platforms/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -896,7 +871,6 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-<<<<<<< HEAD
     "Radzen.Blazor/7.0.8": {
       "type": "package",
       "serviceable": true,
@@ -904,8 +878,6 @@
       "path": "radzen.blazor/7.0.8",
       "hashPath": "radzen.blazor.7.0.8.nupkg.sha512"
     },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
       "serviceable": true,
@@ -1123,7 +1095,6 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
     },
-<<<<<<< HEAD
     "System.IO.Pipelines/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1131,8 +1102,6 @@
       "path": "system.io.pipelines/8.0.0",
       "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
     },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "System.Linq/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1140,7 +1109,6 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
-<<<<<<< HEAD
     "System.Linq.Dynamic.Core/1.6.5": {
       "type": "package",
       "serviceable": true,
@@ -1148,8 +1116,6 @@
       "path": "system.linq.dynamic.core/1.6.5",
       "hashPath": "system.linq.dynamic.core.1.6.5.nupkg.sha512"
     },
-=======
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "System.Memory/4.5.5": {
       "type": "package",
       "serviceable": true,

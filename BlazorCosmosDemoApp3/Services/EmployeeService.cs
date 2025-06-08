@@ -33,18 +33,12 @@ namespace BlazorCosmosDemoApp3.Services
             }
         }
 
-<<<<<<< HEAD
         private async Task<List<EmployeeModel>> FetchEmployeeListAsync()
-=======
-        //To do : add a clear naming conventions
-        public async Task<List<EmployeeModel>> GetEmployeeDetails()
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         {
             List<EmployeeModel> result = new List<EmployeeModel>();
 
             try
             {
-<<<<<<< HEAD
                 var sqlQuery = "SELECT * FROM c";
                 QueryDefinition queryDefinition = new QueryDefinition(sqlQuery);
                 FeedIterator<EmployeeModel> queryResultSetIterator = _container.GetItemQueryIterator<EmployeeModel>(queryDefinition);
@@ -55,66 +49,35 @@ namespace BlazorCosmosDemoApp3.Services
                     {
                         result.Add(employee);
                     }
-                }
-            }
-            catch (Exception ex)
-            {
-=======
-                // To do : find a optimum
-                var sqlQuery = "SELECT*FROM c";
-                QueryDefinition queryDefinition = new QueryDefinition(sqlQuery);
-                FeedIterator<EmployeeModel> quearyResSelector = _container.GetItemQueryIterator<EmployeeModel>
-                    (queryDefinition);
-                while (quearyResSelector.HasMoreResults)
-                {
-                    FeedResponse<EmployeeModel> currentResSet = await quearyResSelector.ReadNextAsync();
-                    foreach (EmployeeModel employee in currentResSet)
-                    {
-                        result.Add(employee);
-                    }
 
                 }
 
             }
             catch (Exception ex)
             {
-                // to do 
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
                 Console.WriteLine(ex.Message);
             }
             return result;
         }
-<<<<<<< HEAD
-
+        
         public async Task<IQueryable<EmployeeModel>> GetEmployeeDetails()
         {
             var list = await FetchEmployeeListAsync();
             return list.AsQueryable();
         }
 
-=======
-        
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         public async Task<EmployeeModel> GetEmployeeDetailsById(string? id, string? partitionKey)
         {
             try
             {
                 ItemResponse<EmployeeModel> response = await _container.ReadItemAsync<EmployeeModel>(id, new PartitionKey(partitionKey));
                 return response.Resource;
-<<<<<<< HEAD
-=======
-
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 throw;
             }
-<<<<<<< HEAD
-=======
-
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         }
 
         public async Task updateEmployeeDetails(EmployeeModel emp)
@@ -127,14 +90,9 @@ namespace BlazorCosmosDemoApp3.Services
                 existingItem.Name = emp.Name;
                 existingItem.Email = emp.Email;
                 existingItem.Salary = emp.Salary;
-<<<<<<< HEAD
-
-                var updateRes = await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
-=======
                 
                 var updateRes = await _container.ReplaceItemAsync(existingItem, existingItem.Id, new PartitionKey(existingItem.Department));
 
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
             }
             catch (Exception ex)
             {
@@ -150,10 +108,6 @@ namespace BlazorCosmosDemoApp3.Services
             }
             catch (Exception ex)
             {
-<<<<<<< HEAD
-=======
-                // find a exception handeling : throw | throw new exceptions
->>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
                 throw new Exception("Exception", ex);
             }
         }
