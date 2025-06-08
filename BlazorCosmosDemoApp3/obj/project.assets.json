@@ -4829,23 +4829,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\int.nadeesha\\.nuget\\packages\\": {},
+    "C:\\Users\\kasun\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+      "projectUniqueName": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
       "projectName": "BlazorCosmosDemoApp3",
-      "projectPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
-      "packagesPath": "C:\\Users\\int.nadeesha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\obj\\",
+      "projectPath": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+      "packagesPath": "C:\\Users\\kasun\\.nuget\\packages\\",
+      "outputPath": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\int.nadeesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kasun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
