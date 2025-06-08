@@ -1,4 +1,4 @@
-﻿@page "/fetchdata"
+﻿@* @page "/fetchdata"
 
 @using BlazorCosmosDemoApp3.Models
 @using BlazorCosmosDemoApp3.Services
@@ -61,4 +61,4 @@ else
         await employeeService.DeleteEmployee(id, department);
         employees = await employeeService.GetEmployeeDetails();
     }
-}
+} *@
