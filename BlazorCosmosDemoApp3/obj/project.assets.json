@@ -25,6 +25,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Authorization/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -116,6 +117,8 @@
           }
         }
       },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "Microsoft.Azure.Cosmos/3.51.0": {
         "type": "package",
         "dependencies": {
@@ -200,6 +203,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -303,6 +307,8 @@
           }
         }
       },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
         "compile": {
@@ -356,6 +362,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Radzen.Blazor/7.0.8": {
         "type": "package",
         "dependencies": {
@@ -379,6 +386,8 @@
           "buildMultiTargeting/Radzen.Blazor.props": {}
         }
       },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
         "type": "package",
         "runtimeTargets": {
@@ -803,6 +812,7 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
+<<<<<<< HEAD
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -819,6 +829,8 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "System.Linq/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -837,6 +849,7 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+<<<<<<< HEAD
       "System.Linq.Dynamic.Core/1.6.5": {
         "type": "package",
         "compile": {
@@ -850,6 +863,8 @@
           }
         }
       },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
@@ -1521,6 +1536,7 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Authorization/8.0.0": {
       "sha512": "OGIGJMnlWvQgcweHcv1Mq/P24Zx/brUHeEdD05NzqkSXmQSnFomTvVyCuBtCXT4JPfv2m70y1RSocmd9bIbJRg==",
       "type": "package",
@@ -1620,6 +1636,8 @@
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "Microsoft.Azure.Cosmos/3.51.0": {
       "sha512": "g3dBhncM1rpEJ2ZVnZ/oHYIg0rrH6RlYa8mmuqk9WFR6dfyWoTF+nwT2SoQUy4df6lB7lW61M41xjdVioIqQ5w==",
       "type": "package",
@@ -1694,6 +1712,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "sha512": "V8S3bsm50ig6JSyrbcJJ8bW2b9QLGouz+G1miK3UTaOWmMtFwNNNzUf4AleyDWUmTrWMLNnFSLEQtxmxgNQnNQ==",
       "type": "package",
@@ -1923,6 +1942,8 @@
         "microsoft.jsinterop.nuspec"
       ]
     },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "Microsoft.NETCore.Platforms/1.1.1": {
       "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
       "type": "package",
@@ -2012,6 +2033,7 @@
         "packageIcon.png"
       ]
     },
+<<<<<<< HEAD
     "Radzen.Blazor/7.0.8": {
       "sha512": "wb7jQ0MGtl13I/PvxIIpzfzM9L+sTRNg4r9L5Pxlp9ANAyLxCixFXRTcOhuNqaANu6oJXRng4FYg3GGt/Hp7lg==",
       "type": "package",
@@ -2075,6 +2097,8 @@
         "staticwebassets/fonts/SourceSans3VF-Upright.ttf.woff2"
       ]
     },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "sha512": "7VSGO0URRKoMEAq0Sc9cRz8mb6zbyx/BZDEWhgPdzzpmFhkam3fJ1DAGWFXBI4nGlma+uPKpfuMQP5LXRnOH5g==",
       "type": "package",
@@ -3049,6 +3073,7 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.IO.Pipelines/8.0.0": {
       "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "type": "package",
@@ -3078,6 +3103,8 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "System.Linq/4.3.0": {
       "sha512": "5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "type": "package",
@@ -3150,6 +3177,7 @@
         "system.linq.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.Linq.Dynamic.Core/1.6.5": {
       "sha512": "NCldHajaCst63aFWXgkrRZOqt21LEDyQ/C0yKAlyuLRunbEaoxxrEm0qII0B6FXU7BE2qZjPRw2Dt5841VNE7w==",
       "type": "package",
@@ -3212,6 +3240,8 @@
         "system.linq.dynamic.core.nuspec"
       ]
     },
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "System.Memory/4.5.5": {
       "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
@@ -4823,6 +4853,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Azure.Cosmos >= 3.51.0",
+<<<<<<< HEAD
       "Newtonsoft.Json >= 13.0.3",
       "Radzen.Blazor >= 7.0.8",
       "System.Linq.Dynamic.Core >= 1.6.5"
@@ -4830,22 +4861,41 @@
   },
   "packageFolders": {
     "C:\\Users\\int.nadeesha\\.nuget\\packages\\": {},
+=======
+      "Newtonsoft.Json >= 13.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\int.kasun\\.nuget\\packages\\": {},
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
       "projectName": "BlazorCosmosDemoApp3",
       "projectPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
       "packagesPath": "C:\\Users\\int.nadeesha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\obj\\",
+=======
+      "projectUniqueName": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+      "projectName": "BlazorCosmosDemoApp3",
+      "projectPath": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+      "packagesPath": "C:\\Users\\int.kasun\\.nuget\\packages\\",
+      "outputPath": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\obj\\",
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\int.nadeesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\int.kasun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4885,6 +4935,7 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+<<<<<<< HEAD
           },
           "Radzen.Blazor": {
             "target": "Package",
@@ -4893,6 +4944,8 @@
           "System.Linq.Dynamic.Core": {
             "target": "Package",
             "version": "[1.6.5, )"
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
           }
         },
         "imports": [

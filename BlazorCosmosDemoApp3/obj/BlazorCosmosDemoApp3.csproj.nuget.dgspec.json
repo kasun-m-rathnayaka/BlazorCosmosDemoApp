@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
         "packagesPath": "C:\\Users\\int.nadeesha\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\int.nadeesha\\Desktop\\New folder\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\obj\\",
+=======
+    "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj": {}
+  },
+  "projects": {
+    "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+        "projectName": "BlazorCosmosDemoApp3",
+        "projectPath": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj",
+        "packagesPath": "C:\\Users\\int.kasun\\.nuget\\packages\\",
+        "outputPath": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\obj\\",
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\int.nadeesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\int.kasun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -57,6 +75,7 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+<<<<<<< HEAD
             },
             "Radzen.Blazor": {
               "target": "Package",
@@ -65,6 +84,8 @@
             "System.Linq.Dynamic.Core": {
               "target": "Package",
               "version": "[1.6.5, )"
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
             }
           },
           "imports": [

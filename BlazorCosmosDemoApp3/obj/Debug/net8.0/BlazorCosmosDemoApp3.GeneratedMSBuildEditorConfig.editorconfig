@@ -9,17 +9,26 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorCosmosDemoApp3
 build_property.RootNamespace = BlazorCosmosDemoApp3
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\int.nadeesha\Desktop\New folder\BlazorCosmosDemoApp\BlazorCosmosDemoApp3\
+=======
+build_property.ProjectDir = D:\Skills\Razor Server\BlazorCosmosDemoApp3\BlazorCosmosDemoApp3\
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = C:\Users\int.nadeesha\Desktop\New folder\BlazorCosmosDemoApp\BlazorCosmosDemoApp3
+=======
+build_property.MSBuildProjectDirectory = D:\Skills\Razor Server\BlazorCosmosDemoApp3\BlazorCosmosDemoApp3
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+<<<<<<< HEAD
 [C:/Users/int.nadeesha/Desktop/New folder/BlazorCosmosDemoApp/BlazorCosmosDemoApp3/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -69,5 +78,52 @@ build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91
 build_metadata.AdditionalFiles.CssScope = b-i9h7onef5a
 
 [C:/Users/int.nadeesha/Desktop/New folder/BlazorCosmosDemoApp/BlazorCosmosDemoApp3/Components/Layout/NavMenu.razor]
+=======
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/Employee.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/EmployeeEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFbXBsb3llZUVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGZXRjaERhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i9h7onef5a
+
+[D:/Skills/Razor Server/BlazorCosmosDemoApp3/BlazorCosmosDemoApp3/Components/Layout/NavMenu.razor]
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-rh936xvtqz

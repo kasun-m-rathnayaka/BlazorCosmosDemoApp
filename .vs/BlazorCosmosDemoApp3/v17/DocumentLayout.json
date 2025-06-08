@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\components\\pages\\employee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\pages\\employee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\components\\pages\\employee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\pages\\employee.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\components\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\razor server\\blazorcosmosdemoapp3\\blazorcosmosdemoapp3\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.razor.cs",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor.cs",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor.cs",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor.cs",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:35:32.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.razor",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Pages\\Employee.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T04:17:26.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Pages\\FetchData.razor",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Pages\\FetchData.razor",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Pages\\FetchData.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:13:20.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwGsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:20:27.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\appsettings.json",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\appsettings.json",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T04:24:45.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:18:09.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Program.cs",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Program.cs",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:21:45.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Models\\EmployeeModel.cs",
+              "ToolTip": "D:\\Skills\\Razor Server\\BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:15:47.171Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

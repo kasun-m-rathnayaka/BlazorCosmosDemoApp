@@ -9,8 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.51.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+<<<<<<< HEAD
     <PackageReference Include="Radzen.Blazor" Version="7.0.8" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.5" />
+=======
+>>>>>>> 2012f79270021d5f4a386a86a6d4032932060bc7
   </ItemGroup>
 
 </Project>
