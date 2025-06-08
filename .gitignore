@@ -399,6 +399,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+BlazorCosmosDemoApp3/appsettings.json
+
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
