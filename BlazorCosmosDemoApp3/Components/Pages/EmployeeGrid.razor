@@ -58,12 +58,14 @@
         <RadzenDataGridColumn TItem="EmployeeModel" Context="employee" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="120px">
             <Template Context="employee">
                 <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Medium" Click="@(() => grid.EditRow(employee))" />
+                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Size="ButtonSize.Medium" Click="@(() => OnDeleteRow(employee))" />
             </Template>
             <EditTemplate Context="employee">
                 <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Size="ButtonSize.Medium" Click="@(() => grid.UpdateRow(employee))" />
                 <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Size="ButtonSize.Medium" Click="@(() => grid.CancelEditRow(employee))" />
             </EditTemplate>
         </RadzenDataGridColumn>
+
     </Columns>
 </RadzenDataGrid>
 

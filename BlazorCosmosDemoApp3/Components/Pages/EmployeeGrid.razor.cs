@@ -60,6 +60,12 @@ namespace BlazorCosmosDemoApp3.Components.Pages
             await grid.InsertRow(new EmployeeModel());
         }
 
+        async Task OnDeleteRow(EmployeeModel employee)
+        {
+            await employeeService.DeleteEmployee(employee);
+            await grid.Reload();
+        }
+
 
     }
 }

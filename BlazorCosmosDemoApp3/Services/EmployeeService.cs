@@ -106,11 +106,11 @@ namespace BlazorCosmosDemoApp3.Services
             }
         }
 
-        public async Task DeleteEmployee(string? id, string? department)
+        public async Task DeleteEmployee(EmployeeModel employee)
         {
             try
             {
-                var response = await _container.DeleteItemAsync<EmployeeModel>(id, new PartitionKey(department));
+                var response = await _container.DeleteItemAsync<EmployeeModel>(employee.Id, new PartitionKey(employee.Department));
             }
             catch (Exception ex)
             {
