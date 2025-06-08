@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\pages\\employeegrid.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\dot net architecure\\blazorcosmosdemoapp\\blazorcosmosdemoapp3\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|d:\\skills\\dot net architecure\\blazorcosmosdemoapp\\blazorcosmosdemoapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A397FB74-4308-447F-A730-AFCE258BF335}|BlazorCosmosDemoApp3\\BlazorCosmosDemoApp3.csproj|solutionrelative:blazorcosmosdemoapp3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -26,8 +30,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:29:04.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +57,7 @@
               "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor",
               "ToolTip": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor",
               "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAACPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-08T16:06:02.631Z",
               "EditorCaption": ""
@@ -49,14 +70,14 @@
               "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor.cs",
               "ToolTip": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor.cs",
               "RelativeToolTip": "BlazorCosmosDemoApp3\\Components\\Pages\\EmployeeGrid.razor.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T16:05:26.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
@@ -64,16 +85,11 @@
               "RelativeToolTip": "BlazorCosmosDemoApp3\\Services\\EmployeeService.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAiwHAAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T16:04:13.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-06-08T16:04:13.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\skills\\Dot Net Architecure\\BlazorCosmosDemoApp\\BlazorCosmosDemoApp3\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorCosmosDemoApp3\\appsettings.json",
@@ -81,8 +97,7 @@
               "RelativeToolTip": "BlazorCosmosDemoApp3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-08T15:52:34.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T15:52:34.793Z"
             }
           ]
         }

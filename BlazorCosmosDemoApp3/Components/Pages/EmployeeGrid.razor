@@ -4,8 +4,8 @@
 <h3>Employees</h3>
 
 <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" Style="margin-bottom: 20px;">
-    <RadzenButton Text="Add New" Click="@InsertRow" ButtonStyle="ButtonStyle.Primary" />
-    <RadzenButton Text="Reset" Click="@Reset" />
+    <RadzenButton Text="Add New" Click="@InsertRow" ButtonStyle="ButtonStyle.Dark" />
+    <RadzenButton Text="Reset" Click="@Reset" ButtonStyle="ButtonStyle.Danger"/>
 </RadzenStack>
 <RadzenDataGrid @ref="grid"
                 TItem="EmployeeModel"
@@ -16,7 +16,7 @@
                 AllowSorting="true"
                 AllowFiltering="true"
                 AllowPaging="true"
-                PageSize="5"
+                PageSize="8"
                 EditMode="DataGridEditMode.Single"
                 RowUpdate="@OnUpdateRow"
                 RowCreate="@OnCreateRow"
