@@ -1,11 +1,11 @@
-@inject EmployeeService employeeService
+@inject IEmployeeService employeeService
 @inject DialogService DialogService
 
 <h3>Employees</h3>
 
 <RadzenStack Orientation="Orientation.Horizontal" Gap="1rem" Style="margin-bottom: 20px;">
     <RadzenButton Text="Add New" Click="@InsertRow" ButtonStyle="ButtonStyle.Dark" />
-    <RadzenButton Text="Reset" Click="@Reset" ButtonStyle="ButtonStyle.Danger"/>
+    <RadzenButton Text="Refresh" Click="@Reset" ButtonStyle="ButtonStyle.Danger"/>
 </RadzenStack>
 <RadzenDataGrid @ref="grid"
                 TItem="EmployeeModel"

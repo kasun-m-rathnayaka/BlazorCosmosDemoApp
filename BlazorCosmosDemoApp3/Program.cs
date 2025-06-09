@@ -9,7 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 //To do : impliment throuth interface
-builder.Services.AddScoped<EmployeeService>(sp =>
+builder.Services.AddScoped<IEmployeeService, EmployeeService>(sp =>
 {
     var conn = builder.Configuration["CosmosDB:Endpoint"];
     var key = builder.Configuration["CosmosDB:Key"];

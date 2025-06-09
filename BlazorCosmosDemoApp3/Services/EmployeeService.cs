@@ -6,7 +6,7 @@ using Microsoft.Azure.Cosmos;
 
 namespace BlazorCosmosDemoApp3.Services
 {
-    public class EmployeeService
+    public class EmployeeService : IEmployeeService
     {
         private readonly Container _container;
 
@@ -58,7 +58,7 @@ namespace BlazorCosmosDemoApp3.Services
             }
             return result;
         }
-        
+
         public async Task<IQueryable<EmployeeModel>> GetEmployeeDetails()
         {
             var list = await FetchEmployeeListAsync();
